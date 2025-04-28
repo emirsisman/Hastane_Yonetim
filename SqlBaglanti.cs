@@ -11,7 +11,7 @@ namespace Hastane_Yonetim
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-6VAF54B; Initial Catalog=HastaneVT; Integrated Security=True");
+            SqlConnection baglan = new SqlConnection("");
             baglan.Open();
             return baglan;
         }
